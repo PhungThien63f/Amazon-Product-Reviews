@@ -15,8 +15,8 @@ Use **Python** to classify topics from Amazon product reviews.
 - Analyze keyword distribution and frequency plots.
 
 ### 🏷️ Classification:
-- Extract features using **TF-IDF** or **word embeddings**.
-- Apply classification models such as **Naïve Bayes, SVM, Random Forest, or Deep Learning**.
+- Extract features using **TF-IDF**.
+- Apply classification models such as **Logistic Regression**.
 
 ### ✅ Model Evaluation:
 - Evaluate using **accuracy, precision, recall, and F1-score**.
