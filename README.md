@@ -30,7 +30,7 @@ Classify topics from Amazon product reviews using machine learning techniques in
   - **Random Forest Classifier**
   - **XGBoost**
 
-### ⚙️ Hyperparameter Tuning
+### Hyperparameter Tuning
 - Perform hyperparameter optimization using **Randomized Search** with Cross-Validation.
 
 
