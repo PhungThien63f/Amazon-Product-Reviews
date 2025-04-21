@@ -1,21 +1,36 @@
-# Amazon Product Reviews
+# 📦 Amazon Product Reviews Classification
 
-## 1. Business Problem: Classifying Topics
+## 1. Business Problem
+**Goal:**  
+Classify topics from Amazon product reviews using machine learning techniques in **Python**.
 
-### Objective:
-Use **Python** to classify topics from Amazon product reviews.
+---
 
-### Data Exploration and Cleaning:
+## 2. Project Workflow
+
+### Data Exploration and Cleaning
 - Handle missing values and remove noisy data.
-- Normalize text (lowercasing, stopword removal, stemming).
+- Normalize text data:
+  - Convert to lowercase.
+  - Remove stopwords.
+  - Apply stemming or lemmatization.
+- Remove special characters, numbers, and punctuations.
 
-### Data Visualization:
-- Use **matplotlib** and **seaborn** for data visualization.
-- Analyze keyword distribution and frequency plots.
+### Data Visualization
+- Create **word clouds** to visualize most frequent words.
+- Plot keyword frequency distributions using **matplotlib** and **seaborn**.
 
-### 🏷️ Classification:
-- Extract features using **TF-IDF**.
-- Apply classification models 
+  
+### Feature Engineering and Classification
+- Extract textual features:
+  - **TF-IDF** Vectorization
+- Apply multiple classification models:
+  - **Logistic Regression**
+  - **Support Vector Machine (SVM)**
+  - **Random Forest Classifier**
+  - **XGBoost**
 
-### ✅ Model Evaluation:
-- Evaluate using **accuracy, precision, recall, and F1-score**.
+### ⚙️ Hyperparameter Tuning
+- Perform hyperparameter optimization using **Randomized Search** with Cross-Validation.
+
+
